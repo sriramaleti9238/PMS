@@ -1,0 +1,44 @@
+<div class="card-wrapper">
+  <div class="card-custom">
+    <div class="card-imgage">
+      <img
+        class="card-img rounded-circle"
+        src="assets/sk.jpg"
+        alt="Card image cap"
+        style="border-radius: 50%"
+      />
+    </div>
+    <div class="card-description">
+      <h3 class="card-title text-success">Name : Shaik Saheb</h3>
+      <h3 class="card-title text-success">Age : 22yrs</h3>
+      <h3 class="card-title text-success">Gender : Male</h3>
+      <h3 class="card-title text-success">Mbl No : 9876543210</h3>
+    </div>
+  </div>
+  <div class="mainbtn" style="display: flex; justify-content: space-between">
+    <button
+      mat-raised-button
+      (click)="openDialog()"
+      color="primary"
+      style="width: 50%"
+    >
+      Previous Health History
+    </button>
+  </div>
+</div>
+
+<div>
+  <h2>Add Patient Info here</h2>
+
+  <h4>Blood Group :</h4>
+  <!-- <div>
+    <mat-form-field appearance="fill">
+      <mat-label>Select Blood Group</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let blood of bloods" [value]="blood.value">
+          {{ blood.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>   -->
+</div>
